@@ -32,10 +32,13 @@ pip install opencv-python
 
 例えば、X = 40 と設定すれば、動画を40等分し、そのタイミングにあるフレームをそれぞれ画像として保存します。
 
+
 # 使い方例
+```
 video_path = "allmov.mp4"      # 入力動画ファイルのパス
 output_dir = "output_frames"   # 保存先フォルダ
 X = 40                         # 何分割するか（画像の枚数）
+```
 
 ---
 
